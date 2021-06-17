@@ -95,7 +95,7 @@ body {
 /* Member One */
 
 .img1 {
-  background-image: url(./images/chris.jpg);
+  background-image: url(./images/img1.jpg);
 }
 
 .name1 {
@@ -113,13 +113,13 @@ body {
 /* Member Two */
 
 .img2 {
-  background-image: url(./images/joyce.jpg);
+  background-image: url(./images/img2.jpg);
 }
 
 .name2 {
   position: absolute;
   top: 155px;
-  left: 95px;
+  left: 110px;
 }
 
 .occupation2 {
@@ -131,13 +131,13 @@ body {
 /* Memeber Three */
 
 .img3 {
-  background-image: url(./images/vincent.png);
+  background-image: url(./images/img3.jpg);
 }
 
 .name3 {
   position: absolute;
   top: 155px;
-  left: 90px;
+  left: 75px;
 }
 
 .occupation3 {
