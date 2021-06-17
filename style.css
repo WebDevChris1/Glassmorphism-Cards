@@ -59,27 +59,16 @@ body {
   top: 30px;
 }
 
-.img1 {
-  background-image: url(./images/chris.jpg);
-}
-
-.img2 {
-  background-image: url(./images/joyce.jpg);
+.img3 {
+  background-image: url(./images/vincent.png);
 }
 
 .name {
   font-size: 20px;
   font-weight: bold;
-  position: absolute;
-  top: 155px;
-  left: 50px;
 }
 
 .occupation {
-  position: absolute;
-  top: 185px;
-  font-size: 15px;
-  left: 89px;
   color: black;
   font-weight: lighter;
 }
@@ -101,6 +90,56 @@ body {
 
 .know-more:hover {
   border: 1px solid black;
+}
+
+/* Member One */
+
+.img1 {
+  background-image: url(./images/chris.jpg);
+}
+
+.member1 {
+  position: absolute;
+  top: 155px;
+  left: 50px;
+}
+
+.occupation1 {
+  position: absolute;
+  top: 185px;
+  left: 89px;
+}
+
+/* Member Two */
+
+.img2 {
+  background-image: url(./images/joyce.jpg);
+}
+
+.member2 {
+  position: absolute;
+  top: 155px;
+  left: 100px;
+}
+
+.occupation2 {
+  position: absolute;
+  top: 185px;
+  left: 105px;
+}
+
+/* Memeber Three */
+
+.member3 {
+  position: absolute;
+  top: 155px;
+  left: 90px;
+}
+
+.occupation3 {
+  position: absolute;
+  top: 185px;
+  left: 85px;
 }
 
 .title-wrapper {
