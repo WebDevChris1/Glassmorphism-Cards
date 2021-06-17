@@ -79,7 +79,7 @@ body {
   border-radius: 5px;
   padding: 5px 10px;
   top: 240px;
-  left: 100px;
+  left: 105px;
   cursor: pointer;
 }
 
@@ -119,13 +119,13 @@ body {
 .name2 {
   position: absolute;
   top: 155px;
-  left: 100px;
+  left: 95px;
 }
 
 .occupation2 {
   position: absolute;
   top: 185px;
-  left: 105px;
+  left: 100px;
 }
 
 /* Memeber Three */
