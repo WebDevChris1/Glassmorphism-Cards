@@ -1,3 +1,5 @@
+/* Root */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
@@ -6,6 +8,8 @@
   margin: 0;
   box-sizing: 0;
 }
+
+/* General Styles */
 
 body {
   background-image: linear-gradient(
@@ -59,10 +63,6 @@ body {
   top: 30px;
 }
 
-.img3 {
-  background-image: url(./images/vincent.png);
-}
-
 .name {
   font-size: 20px;
   font-weight: bold;
@@ -98,7 +98,7 @@ body {
   background-image: url(./images/chris.jpg);
 }
 
-.member1 {
+.name1 {
   position: absolute;
   top: 155px;
   left: 50px;
@@ -116,7 +116,7 @@ body {
   background-image: url(./images/joyce.jpg);
 }
 
-.member2 {
+.name2 {
   position: absolute;
   top: 155px;
   left: 100px;
@@ -130,7 +130,11 @@ body {
 
 /* Memeber Three */
 
-.member3 {
+.img3 {
+  background-image: url(./images/vincent.png);
+}
+
+.name3 {
   position: absolute;
   top: 155px;
   left: 90px;
@@ -141,6 +145,8 @@ body {
   top: 185px;
   left: 85px;
 }
+
+/* Title */
 
 .title-wrapper {
   display: flex;
