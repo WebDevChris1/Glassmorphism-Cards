@@ -16,6 +16,7 @@ body {
   background-position: center;
   background-size: cover;
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 .card-wrapper {
@@ -182,9 +183,74 @@ body {
   color: black;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 970px) {
   .card-wrapper {
+    display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: space-around;
+  }
+
+  .card {
+    height: 200px;
+    width: 200px;
+  }
+
+  .know-more {
+    top: 83%;
+    left: 63px;
+    font-size: 12px;
+  }
+
+  .profile {
+    top: 10%;
+    left: 59px;
+    height: 90px;
+    width: 90px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .occupation {
+    font-size: 12px;
+  }
+
+  /* Memeber One */
+
+  .name1 {
+    top: 60%;
+    left: 27px;
+  }
+
+  .occupation1 {
+    top: 70%;
+    left: 48px;
+  }
+
+  /* Member Two */
+
+  .name2 {
+    top: 60%;
+    left: 73px;
+  }
+
+  .occupation2 {
+    top: 70%;
+    left: 65px;
+  }
+
+  /* Memeber Three */
+
+  .name3 {
+    top: 60%;
+    left: 50px;
+  }
+
+  .occupation3 {
+    top: 70%;
+    left: 52px;
   }
 }
