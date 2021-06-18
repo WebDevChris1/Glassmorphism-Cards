@@ -146,12 +146,54 @@ body {
   left: 85px;
 }
 
-/* Title */
+/* Social Media */
 
-.title-wrapper {
+.social-media-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 70px;
-  color: white;
+  flex-direction: column;
+  height: 34%;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.social {
+  color: black;
+  width: 60px;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.twitter a {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  transition: 0.5s ease;
+  transition-delay: 0.3s;
+  text-align: right;
+}
+
+.facebook a {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  transition: 0.7s ease;
+  transition-delay: 0.3s;
+  text-align: right;
+}
+
+.linkedin a {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  transition: 0.9s ease;
+  transition-delay: 0.3s;
+  text-align: right;
+}
+.card:hover .social a {
+  width: 100%;
+}
+
+.social a:visited {
+  color: black;
 }
