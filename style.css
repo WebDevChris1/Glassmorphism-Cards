@@ -181,3 +181,10 @@ body {
 .social a:visited {
   color: black;
 }
+
+@media screen and (max-width: 970px) {
+  .card-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+}
