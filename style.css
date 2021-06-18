@@ -186,6 +186,7 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 970px) {
+  /* General Styles */
   .card-wrapper {
     display: flex;
     flex-direction: column;
@@ -205,7 +206,7 @@ body {
 
   .profile {
     top: 10%;
-    left: 59px;
+    left: 58px;
     height: 90px;
     width: 90px;
   }
@@ -234,12 +235,12 @@ body {
 
   .name2 {
     top: 60%;
-    left: 73px;
+    left: 70px;
   }
 
   .occupation2 {
     top: 70%;
-    left: 65px;
+    left: 63px;
   }
 
   /* Memeber Three */
@@ -251,6 +252,12 @@ body {
 
   .occupation3 {
     top: 70%;
-    left: 52px;
+    left: 50px;
+  }
+
+  /* Social Media */
+  .social {
+    padding: 15px 0;
+    width: 40px;
   }
 }
