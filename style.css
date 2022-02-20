@@ -12,7 +12,21 @@
 /* General Styles */
 
 body {
-  background-image: url(./images/background.jpg);
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
   background-position: center;
   background-size: cover;
   font-family: "Roboto", sans-serif;
@@ -133,6 +147,10 @@ body {
 
 /* Social Media */
 
+.fab {
+  color: black;
+}
+
 .social-media-wrapper {
   display: flex;
   flex-direction: column;
@@ -143,7 +161,6 @@ body {
 }
 
 .social {
-  color: black;
   width: 60px;
   font-size: 20px;
   padding: 20px 0;
@@ -156,6 +173,7 @@ body {
   transition: 0.5s ease;
   transition-delay: 0.3s;
   text-align: right;
+  color: black;
 }
 
 .facebook a {
@@ -165,6 +183,7 @@ body {
   transition: 0.7s ease;
   transition-delay: 0.3s;
   text-align: right;
+  color: black;
 }
 
 .linkedin a {
@@ -174,6 +193,7 @@ body {
   transition: 0.9s ease;
   transition-delay: 0.3s;
   text-align: right;
+  color: black;
 }
 .card:hover .social a {
   width: 100%;
